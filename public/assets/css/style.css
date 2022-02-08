@@ -1,0 +1,83 @@
+:root {
+    --bs-box-shadow: 0 0 16px 0 rgb(154 161 171 / 15%);
+}
+
+/* BUTTON */
+.btn-block {
+    display: block;
+    width: 100%;
+    padding: 12px 10px;
+}
+
+/* DROPDOWN */
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* WHAT WE DO */
+.what-we-do .icon-box {
+    transition: all ease-in-out 0.3s;
+    background: var(--bs-body-bg);
+}
+.what-we-do .icon-box:hover {
+    box-shadow: var(--bs-box-shadow);
+}
+
+/* PROCEDURE */
+.procedure .icon-box {
+    transition: all ease-in-out 0.3s;
+    background: var(--bs-white);
+}
+.procedure .icon-box:hover {
+    box-shadow: var(--bs-box-shadow);
+}
+
+/* ACCORDION */
+.accordion {
+    box-shadow: var(--bs-box-shadow);
+}
+.accordion-item {
+    border: none;
+}
+.accordion-button {
+    font-weight: 600;
+}
+
+/* CONTACT */
+.contact .icon-box:hover {
+    box-shadow: var(--bs-box-shadow);
+}
+
+/* FOOTER */
+.footer {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+/* LOGIN */
+/* .card {
+    border: none;
+    -webkit-box-shadow: var(--bs-box-shadow);
+    box-shadow: var(--bs-box-shadow);
+    margin-bottom: 24px;
+} */
+
+/* PAGE SECTION */
+/* .page-section {
+    padding-top: calc(9rem - 1px);
+    padding-bottom: 4.5rem !important;
+} */
+
+/* AVATAR */
+/* .avatar-lg {
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+} */
+
+/* MARGIN
+.mb-0-5 {
+    margin-bottom: 0.5rem !important;
+} */
